@@ -9,6 +9,18 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
+    itemImage:[
+      '../../images/i1.jpg',
+      '../../images/i2.jpg',
+      '../../images/i3.jpg',
+      '../../images/i4.jpg'
+    ],
+    listImage: [
+      '../../images/i5.jpg',
+      '../../images/i6.jpg',
+      '../../images/i7.jpg',
+      '../../images/i8.jpg'
+    ],
     indicatorDots: true,
     autoplay: true,
     interval: 5000,

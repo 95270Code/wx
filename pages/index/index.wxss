@@ -13,7 +13,7 @@ image{
   align-items: center; 
 }
 .text-all{
-  color: #f0f;
+  color: #F9021B;
   font-size: 14px;
 }
 
@@ -46,4 +46,34 @@ image{
   height: 35rpx;
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
+}
+
+.list-item{
+  height:auto;
+  width:100%;
+}
+
+.list-item-image{
+  height: 100px;
+  padding: 9px;
+  padding-right: 16px;
+  position: relative;
+}
+.item-main{
+   height: 100%;
+   padding: 3px;
+}
+
+.list-item-text{
+  height:auto;
+  font-size: 10px;
+  padding: 12px;
+}
+.mo{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -10px;
+  right: 30px;
+  border-radius: 0.5;
 }

@@ -17,14 +17,23 @@
   </view>
   
   <view class='content'>
-    <view class='content-item'>
-      <image src='../../images/i1.jpg'></image>
+    <view class='content-item' wx:for="{{itemImage}}">
+      <image src="{{item}}"></image>
       <view class='content-item-text'>这里是标题</view> 
     </view>
-    
-    <view class='content-item'>2</view>
-    <view class='content-item'>3</view>
-    <view class='content-item'>4</view>
+  </view>
+
+  <view class='header'>
+    <text>热门评测</text>
+    <text class='text-all'>全部评测</text>
+  </view>
+
+  <view class='list-item' wx:for="{{listImage}}">
+      <view class='list-item-image'>
+        <image src='{{item}}' class='item-main'/>
+        <image src='../../images/q1.jpg' class='mo' width='30' height='30' />
+      </view>
+      <view class='list-item-text'>溪流舍弃了安宁平静的池塘，便有了奔流向前的激情，红梅舍弃了百花争艳的春光，便有了独赏冬雪的孤洁；沙砾舍弃了安逸舒适的沙滩，便有了华丽蜕变的高贵，夕阳舍弃了朝气蓬勃的清晨</view>
   </view>
 
 </view>
